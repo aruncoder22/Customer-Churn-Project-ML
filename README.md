@@ -64,7 +64,7 @@ https://www.kaggle.com/blastchar/telco-customer-churn
 
 ## Churn Distribution
 
-![Churn Distribution](images/churn_distribution.png)
+![Churn Distribution](Images/churn_distribution.png)
 Most customers do **not churn**, so the dataset is imbalanced.
 We solved this using **SMOTE**.
 
@@ -72,7 +72,7 @@ We solved this using **SMOTE**.
 
 ## Correlation Heatmap
 
-![Correlation Heatmap](images/correlation_heatmap.png)
+![Correlation Heatmap](Images/correlation_heatmap.png)
 The heatmap shows relationships between numerical features.
 
 Important observations:
@@ -84,7 +84,7 @@ Important observations:
 
 ## Feature Distribution
 
-![Numerical Features](images/numerical_boxplots.png)
+![Numerical Features](Images/numerical_boxplots.png)
 Observations:
 
 * Customers with **short tenure leave more often**
@@ -141,14 +141,14 @@ We trained four machine learning models:
 
 # 📊 Confusion Matrices
 
-![Confusion Matrices](images/confusion_matrices.png)
+![Confusion Matrices](Images/confusion_matrices.png)
 These charts show how well each model predicted churn and non-churn customers.
 
 ---
 
 # 🔍 Important Features
 
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](Images/feature_importance.png)
 Top factors that affect churn:
 
 * Tenure
@@ -177,13 +177,13 @@ Companies can use this information to **reduce customer loss**.
 ### 1 Clone the repository
 
 ```bash
-git clone https://github.com/Thanushya56/customer-churn-prediction.git
+git clone https://github.com/aruncoder22/customer-churn-Project-ML.git
 ```
 
 ### 2 Go to the project folder
 
 ```bash
-cd customer-churn-prediction
+cd customer-churn-Project-ML
 ```
 
 ### 3 Create virtual environment
